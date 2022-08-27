@@ -15,7 +15,7 @@ use std::{
   sync::{Arc, Mutex},
 };
 
-const STATE_FILENAME: &str = ".window-state";
+pub const STATE_FILENAME: &str = ".window-state";
 
 #[derive(Debug, thiserror::Error)]
 pub enum Error {
